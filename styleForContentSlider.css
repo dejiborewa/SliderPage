@@ -1,0 +1,164 @@
+body {
+	background-color: white;
+}
+
+p, h2, h1 {
+	font-family: consolas;
+}
+
+
+div > a {
+	text-decoration: none;
+	font-family: consolas;
+	color: #0066ff;
+	transition: all .2s ease-out;
+	border-bottom: 2px solid rgba(0, 100, 200, 0);
+}
+
+div > a:hover {
+	border-bottom: 2px solid rgba(0, 100, 200, 1);
+}
+
+div.slide > p {
+	font-size: 24px;
+	font-family: consolas;
+}
+
+cite {
+	font-size: 13px;
+}
+
+#name {
+	position: absolute;
+	left: 4px;
+}
+.slide { 
+	position: absolute;
+	text-align: center;
+	padding: 2px;
+	width: 400px;
+	overflow: hidden;
+}
+
+div#footerContainer > div {
+	text-indent: 2px;
+	font-size: 15px;
+}
+
+#footer1 {
+	border-bottom: 1px solid #00ffff;
+	margin: 2px;
+	padding: 2px;
+	text-indent: 2px;
+}
+
+#footer2 {
+	border-bottom: 1px solid #00ffff;
+	margin: 2px;
+	padding: 2px;
+	text-indent: 2px;
+}
+
+#footer3 {
+	border-bottom: 1px solid #00ffff;
+	margin: 2px;
+	padding: 2px;
+	text-indent: 2px;
+}
+
+#footer4 {
+	margin: 2px;
+	padding: 2px;
+	text-indent: 2px;
+}
+
+
+#footerContainer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background-color: #0066ff;
+	font-family: consolas;
+	width: 1364px;
+	color: white;
+}
+#container {
+	position: absolute;
+	font-family: consolas;
+	text-align: center;
+	left: 450px;
+	top: 150px;
+	width: 400px;
+	overflow: hidden;
+	
+}
+#containerTop {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1365px;
+	height: 50px;
+	background-color: #00ffff;
+	font-family: consolas;
+}
+
+#Home {
+	position: absolute;
+	left: 1110px;
+	top: 0px;
+}
+
+
+#About {
+	position: absolute;
+	left: 1175px;
+	top: 0px;
+}
+
+#Contact {
+	position: absolute;
+	left: 1275px;
+	top: 0px;
+}
+
+#next {
+	font-size: 30px;
+	position: absolute;
+	top: 180px;
+	left: 1310px;
+	font-family: consolas;
+	/* background-image: linear-gradient(to bottom, #00ffff, #0066ff); */
+	border-radius: 10px;
+	/* box-shadow: 5px 5px 20px #cccccc; */
+	padding: 10px;
+	background: transparent;
+	opacity: 0.5;
+	cursor: pointer;
+	border: none;
+}
+
+#next:hover {
+	background-color: transparent;
+	opacity: 1;
+}
+
+#prev {
+	position: absolute;
+	top: 180px;
+	font-size: 30px;
+	background: transparent;
+	border-radius: 10px;
+	/* box-shadow: 5px 5px 20px #cccccc; */
+	padding: 10px;
+	font-family: consolas;
+	border: none;
+	opacity: 0.5;
+	cursor: pointer;
+
+}
+
+#prev:hover {
+	background: transparent;
+	opacity: 1;
+}
+
